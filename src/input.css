@@ -42,7 +42,7 @@
 
 .sidebar {
 	transition: transform 0.5s ease-in-out;
-	transform: translateX(-23rem);
+	transform: translateX(-30rem);
 }
 
 .sidebar-active {
