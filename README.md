@@ -1,6 +1,6 @@
 # Resume
 
-Basic HTML page that uses Tailwind.
+Alejo Kim Uy Resume page made with React + Tailwind
 
 ## Credits
 
