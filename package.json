@@ -6,7 +6,9 @@
 	"scripts": {
 		"dev": "vite",
 		"dev-tailwind": "tailwindcss -i ./src/input.css -o ./src/output.css --watch",
-		"build": "vite build",
+		"build": "npm run build-tailwind && npm run build-vite",
+		"build-vite": "vite build",
+		"build-tailwind": "tailwindcss -i ./src/input.css -o ./src/output.css",
 		"lint": "eslint .",
 		"preview": "vite preview"
 	},
