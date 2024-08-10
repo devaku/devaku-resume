@@ -1,3 +1,98 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* Colors */
+
+.z-bg-blue {
+	background-color: #2a80af;
+	border-color: #f8f595;
+}
+
+.z-bg-blue-light {
+	border-color: #f8f595;
+	background-color: rgb(42, 128, 225);
+}
+
+.z-bg-blue-dark {
+	border-color: #f8f595;
+	background-color: hsl(212, 75%, 25%);
+}
+
+.z-bg-yellow {
+	background-color: #f8f595;
+}
+
+/* Design */
+
+.vertical {
+	height: 100%;
+}
+
+/* Utilities */
+.hidden {
+	display: none;
+}
+
+.invert {
+	filter: invert(1);
+}
+
+/* Transitions */
+
+.sidebar {
+	transition: transform 0.5s ease-in-out;
+	transform: translateX(-23rem);
+}
+
+.sidebar-active {
+	transform: translateX(0);
+}
+
+/* Queries */
+
+:root:has(.sidebar-active) {
+	overflow: hidden;
+}
+
+/* Fonts */
+
+.roboto-serif-100 {
+	font-family: 'Roboto Serif', serif;
+	font-optical-sizing: auto;
+	font-weight: 100;
+	font-style: normal;
+	font-variation-settings: 'wdth' 100, 'GRAD' 0;
+}
+
+.roboto-serif-300 {
+	font-family: 'Roboto Serif', serif;
+	font-optical-sizing: auto;
+	font-weight: 300;
+	font-style: normal;
+	font-variation-settings: 'wdth' 100, 'GRAD' 0;
+}
+
+.roboto-serif-500 {
+	font-family: 'Roboto Serif', serif;
+	font-optical-sizing: auto;
+	font-weight: 500;
+	font-style: normal;
+	font-variation-settings: 'wdth' 100, 'GRAD' 0;
+}
+
+.roboto-serif-700 {
+	font-family: 'Roboto Serif', serif;
+	font-optical-sizing: auto;
+	font-weight: 700;
+	font-style: normal;
+	font-variation-settings: 'wdth' 100, 'GRAD' 0;
+}
+
+.roboto-serif-900 {
+	font-family: 'Roboto Serif', serif;
+	font-optical-sizing: auto;
+	font-weight: 900;
+	font-style: normal;
+	font-variation-settings: 'wdth' 100, 'GRAD' 0;
+}
